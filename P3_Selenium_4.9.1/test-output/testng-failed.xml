@@ -3,13 +3,13 @@
 <suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
-      <class name="TestNG.Example17_ParameterTest">
+      <class name="TestNG.Example10_DataProvider">
         <methods>
-          <include name="Firefox"/>
-          <include name="Chrome"/>
-          <include name="Edge"/>
+          <include name="login1" invocation-numbers="0 1 2 3 4"/>
+          <include name="login2" invocation-numbers="0 1 2 3"/>
+          <include name="login" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- TestNG.Example17_ParameterTest -->
+      </class> <!-- TestNG.Example10_DataProvider -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

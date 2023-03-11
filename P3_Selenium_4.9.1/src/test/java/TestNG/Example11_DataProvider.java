@@ -4,7 +4,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class Example11_DataProvider {
-  @Test
+  @Test(dataProvider = "loginData")
   public void login(String username1, String password) {
 	  System.out.println(username1);
 	  System.out.println(password);

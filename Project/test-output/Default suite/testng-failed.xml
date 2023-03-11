@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Project_Selenium.Example17_ParameterTest">
+      <class name="Project_Selenium.Automationwithdataprovide">
         <methods>
-          <include name="Edge"/>
-          <include name="Firefox"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- Project_Selenium.Example17_ParameterTest -->
+      </class> <!-- Project_Selenium.Automationwithdataprovide -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
