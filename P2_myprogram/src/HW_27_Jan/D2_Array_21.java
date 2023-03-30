@@ -8,7 +8,7 @@ public class D2_Array_21 {
 		// TODO Auto-generated method stub
 		int a [][]  = {{2,4,6},{3,6,9}};
 		{
-			System.out.println("Two - Dimensional : "+a[1][1]);
+			System.out.println("Two - Dimensional : "+a[1][2]);
 		}
 		
 
