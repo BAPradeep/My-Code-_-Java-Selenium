@@ -19,12 +19,12 @@ public class NoP_Regsiter {
 		// TODO Auto-generated method stub
 		
 		// Chrome Browser
-	//	WebDriverManager.chromedriver().setup();
-	//	WebDriver first = new ChromeDriver();
+		WebDriverManager.chromedriver().setup();
+		WebDriver first = new ChromeDriver();
 		
 		// Edge Browser
-		WebDriverManager.edgedriver().setup();
-		WebDriver first = new EdgeDriver();
+		//WebDriverManager.edgedriver().setup();
+		//WebDriver first = new EdgeDriver();
 		
 		// open browser
 		first.get("https://demo.nopcommerce.com/");

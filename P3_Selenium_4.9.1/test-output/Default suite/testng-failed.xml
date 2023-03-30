@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.Example10_DataProvider">
+      <class name="TestNG.Example12_SumParameter">
         <methods>
-          <include name="login" invocation-numbers="0 1 2 3"/>
+          <include name="parameter"/>
         </methods>
-      </class> <!-- TestNG.Example10_DataProvider -->
+      </class> <!-- TestNG.Example12_SumParameter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
