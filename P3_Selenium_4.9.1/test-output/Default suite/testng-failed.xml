@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.Example12_SumParameter">
+      <class name="DEMO.Time_OrangeHRM">
         <methods>
-          <include name="parameter"/>
+          <include name="Duration"/>
         </methods>
-      </class> <!-- TestNG.Example12_SumParameter -->
+      </class> <!-- DEMO.Time_OrangeHRM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

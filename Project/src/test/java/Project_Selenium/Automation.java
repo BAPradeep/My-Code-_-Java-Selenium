@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
@@ -19,8 +20,8 @@ public class Automation {
 	//	WebDriver demo = new ChromeDriver();
 		
 		//Edge
-		WebDriverManager.edgedriver().setup();
-		WebDriver demo = new EdgeDriver();
+		WebDriverManager.chromedriver().setup();
+		WebDriver demo = new ChromeDriver();
 		
 		
 		demo.get("https://demo.automationtesting.in/Register.html");
