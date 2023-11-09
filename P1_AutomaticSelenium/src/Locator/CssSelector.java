@@ -25,7 +25,7 @@ public class CssSelector {
 		driver.findElement(By.cssSelector("input[id = login-submit][name = login-submit]")).click();
 		
 		// Web site is exit
-		driver.close();
+		//driver.close();
 
 	}
 
