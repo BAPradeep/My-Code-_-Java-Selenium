@@ -10,7 +10,7 @@ public class Array {
 	  cars[2] = "Tesla";
 	  for(int i=0; i<= cars.length; i++) {
 		  System.out.println(cars[i]);
-	  }
+		}
   }
   @Test
   public void TwoArray() {

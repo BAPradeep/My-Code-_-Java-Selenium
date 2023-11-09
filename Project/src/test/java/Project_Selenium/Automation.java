@@ -15,12 +15,12 @@ public class Automation {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// chrome
-	//	WebDriverManager.chromedriver().setup();
-	//	WebDriver demo = new ChromeDriver();
+		WebDriverManager.chromedriver().setup();
+		WebDriver demo = new ChromeDriver();
 		
 		//Edge
-		WebDriverManager.edgedriver().setup();
-		WebDriver demo = new EdgeDriver();
+	//	WebDriverManager.edgedriver().setup();
+	//	WebDriver demo = new EdgeDriver();
 		
 		
 		demo.get("https://demo.automationtesting.in/Register.html");

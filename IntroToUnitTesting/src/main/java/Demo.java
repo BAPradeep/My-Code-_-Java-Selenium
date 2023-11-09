@@ -1,3 +1,4 @@
+package IntroToUnitTesting;
 import java.util.Scanner;
 
 public class Demo {

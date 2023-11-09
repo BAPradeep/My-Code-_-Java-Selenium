@@ -6,7 +6,7 @@ public class Switch {
 		// TODO Auto-generated method stub
 //switch = statement that allows a variable to be tested for equality against a list of value
 		
-		String day = "Foriday";
+		String day = "Friday";
 		
 		switch(day) {
 		case "Sunday":
